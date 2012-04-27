@@ -1,0 +1,14 @@
+//
+//  main.m
+//  crap
+//
+//  Created by Josh Cheek on 4/27/12.
+//  Copyright (c) 2012 8th Light. All rights reserved.
+//
+
+#import <Cocoa/Cocoa.h>
+
+int main(int argc, char *argv[])
+{
+    return NSApplicationMain(argc, (const char **)argv);
+}
