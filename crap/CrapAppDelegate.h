@@ -8,8 +8,9 @@
 
 #import <Cocoa/Cocoa.h>
 
-@interface CrapAppDelegate : NSObject <NSApplicationDelegate>
-
-@property (assign) IBOutlet NSWindow *window;
+@interface CrapAppDelegate : NSObject <NSApplicationDelegate> {
+    IBOutlet NSImageView *imageView;
+    __strong NSWindow *window;
+}
 
 @end

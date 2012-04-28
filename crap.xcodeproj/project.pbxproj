@@ -13,6 +13,7 @@
 		062DE4DE154B3E18008B0B68 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 062DE4DC154B3E18008B0B68 /* Credits.rtf */; };
 		062DE4E1154B3E18008B0B68 /* CrapAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 062DE4E0154B3E18008B0B68 /* CrapAppDelegate.m */; };
 		062DE4E4154B3E18008B0B68 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 062DE4E2154B3E18008B0B68 /* MainMenu.xib */; };
+		062DE4EB154B417C008B0B68 /* Unicorn.png in Resources */ = {isa = PBXBuildFile; fileRef = 062DE4EA154B417C008B0B68 /* Unicorn.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,14 +22,15 @@
 		062DE4D0154B3E18008B0B68 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		062DE4D1154B3E18008B0B68 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		062DE4D2154B3E18008B0B68 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		062DE4D5154B3E18008B0B68 /* crap-Info.plist */ = {isa = PBXFileReference; path = "crap-Info.plist"; sourceTree = "<group>"; };
+		062DE4D5154B3E18008B0B68 /* crap-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "crap-Info.plist"; sourceTree = "<group>"; };
 		062DE4D7154B3E18008B0B68 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		062DE4D9154B3E18008B0B68 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		062DE4DB154B3E18008B0B68 /* crap-Prefix.pch */ = {isa = PBXFileReference; path = "crap-Prefix.pch"; sourceTree = "<group>"; };
+		062DE4DB154B3E18008B0B68 /* crap-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "crap-Prefix.pch"; sourceTree = "<group>"; };
 		062DE4DD154B3E18008B0B68 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		062DE4DF154B3E18008B0B68 /* CrapAppDelegate.h */ = {isa = PBXFileReference; path = CrapAppDelegate.h; sourceTree = "<group>"; };
+		062DE4DF154B3E18008B0B68 /* CrapAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CrapAppDelegate.h; sourceTree = "<group>"; };
 		062DE4E0154B3E18008B0B68 /* CrapAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CrapAppDelegate.m; sourceTree = "<group>"; };
 		062DE4E3154B3E18008B0B68 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		062DE4EA154B417C008B0B68 /* Unicorn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Unicorn.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 				062DE4DF154B3E18008B0B68 /* CrapAppDelegate.h */,
 				062DE4E0154B3E18008B0B68 /* CrapAppDelegate.m */,
 				062DE4E2154B3E18008B0B68 /* MainMenu.xib */,
+				062DE4EA154B417C008B0B68 /* Unicorn.png */,
 				062DE4D4154B3E18008B0B68 /* Supporting Files */,
 			);
 			path = crap;
@@ -156,6 +159,7 @@
 				062DE4D8154B3E18008B0B68 /* InfoPlist.strings in Resources */,
 				062DE4DE154B3E18008B0B68 /* Credits.rtf in Resources */,
 				062DE4E4154B3E18008B0B68 /* MainMenu.xib in Resources */,
+				062DE4EB154B417C008B0B68 /* Unicorn.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
